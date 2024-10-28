@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LunarLoader - TTT [Beta]</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon" />
+</head>
+<body>
+    <div class="loading-screen">
+      <video autoplay loop class="background-video" id="background-video">
+        <source src="video/pöh.mp4" type="video/mp4">
+        Tarayıcınız bu videoyu desteklemiyor.
+      </video>
+      <div class="overlay"></div>
+      <div class="logo">
+        <img src="images/logo.png" alt="LunarGaming Logo">
+      </div>
+      <div class="loading-bar">
+        <div class="progress" id="progress-bar"></div>
+        <div class="percentage" id="percentage-text">0%</div>
+      </div>
+      <button class="sound-toggle" onclick="toggleSound()">🔊</button>
+    </div>
+    
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+<!--Developed By Ardelys-->
